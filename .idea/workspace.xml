@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e57ccb9-923e-4b6c-ab74-39a91e1fe0c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/test/CricketLeagueAnalysisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/test/CricketLeagueAnalysisTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YmzoPgce6MUdyZQuuL3lAxyCXn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24444444" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bridgelabz" />
+      <recent name="com.bridgelabz.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostRuns_ShouldGetCorrectRecords">
+    <configuration name="CricketLeagueAnalysisTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostRuns_ShouldGetCorrectRecords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostRuns_ShouldGetCorrectRecords&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Cricket_League_Analysis [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostRuns_ShouldGetCorrectRecords" />
+        <item itemvalue="Gradle.CricketLeagueAnalysisTest" />
+        <item itemvalue="Gradle.Cricket_League_Analysis [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e57ccb9-923e-4b6c-ab74-39a91e1fe0c1" name="Default Changelist" comment="" />
+      <created>1583562731298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583562731298</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="438" y="101" width="544" height="599" key="#com.intellij.ide.util.MemberChooser" timestamp="1583580109930">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state x="438" y="101" width="544" height="599" key="#com.intellij.ide.util.MemberChooser/64.27.1302.741@64.27.1302.741" timestamp="1583580109930" />
+    <state x="337" y="141" width="735" height="520" key="FileChooserDialogImpl" timestamp="1583566925486">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state x="337" y="141" width="735" height="520" key="FileChooserDialogImpl/64.27.1302.741@64.27.1302.741" timestamp="1583566925486" />
+    <state width="1256" height="172" key="GridCell.Tab.0.bottom" timestamp="1583645398797">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state width="1256" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1583645398797" />
+    <state width="1256" height="172" key="GridCell.Tab.0.center" timestamp="1583645398796">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state width="1256" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1583645398796" />
+    <state width="1256" height="172" key="GridCell.Tab.0.left" timestamp="1583645398796">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state width="1256" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1583645398796" />
+    <state width="1256" height="172" key="GridCell.Tab.0.right" timestamp="1583645398796">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state width="1256" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1583645398796" />
+    <state width="1256" height="215" key="GridCell.Tab.1.bottom" timestamp="1583587827369">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state width="1256" height="215" key="GridCell.Tab.1.bottom/64.27.1302.741@64.27.1302.741" timestamp="1583587827369" />
+    <state width="1256" height="215" key="GridCell.Tab.1.center" timestamp="1583587827369">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state width="1256" height="215" key="GridCell.Tab.1.center/64.27.1302.741@64.27.1302.741" timestamp="1583587827369" />
+    <state width="1256" height="215" key="GridCell.Tab.1.left" timestamp="1583587827369">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state width="1256" height="215" key="GridCell.Tab.1.left/64.27.1302.741@64.27.1302.741" timestamp="1583587827369" />
+    <state width="1256" height="215" key="GridCell.Tab.1.right" timestamp="1583587827369">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state width="1256" height="215" key="GridCell.Tab.1.right/64.27.1302.741@64.27.1302.741" timestamp="1583587827369" />
+    <state x="198" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583564614506">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state x="198" y="27" width="1024" height="741" key="SettingsEditor/64.27.1302.741@64.27.1302.741" timestamp="1583564614506" />
+    <state x="487" y="180" width="446" height="447" key="chooseDestDirectoryDialog" timestamp="1583563943037">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state x="487" y="180" width="446" height="447" key="chooseDestDirectoryDialog/64.27.1302.741@64.27.1302.741" timestamp="1583563943037" />
+    <state x="164" y="127" width="1102" height="541" key="dock-window-1" timestamp="1583585293184">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state x="164" y="127" width="1102" height="541" key="dock-window-1/64.27.1302.741@64.27.1302.741" timestamp="1583585293184" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Cricket_League_Analysis$CricketLeagueAnalysisTest_givenIPL2019SheetMostRuns_ShouldGetCorrectRecords.ic" NAME="CricketLeagueAnalysisTest.givenIPL2019SheetMostRuns_ShouldGetCorrectRecords Coverage Results" MODIFIED="1583586950747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
