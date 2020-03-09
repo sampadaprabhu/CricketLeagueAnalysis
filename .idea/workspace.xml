@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e57ccb9-923e-4b6c-ab74-39a91e1fe0c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/CricketLeagueAnalysis$Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/CricketLeagueAnalysis$Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/CricketLeagueAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/CricketLeagueAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/IPLWicketsCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/IPLWicketsCSV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/iplLeagueDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/iplLeagueDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/test/CricketLeagueAnalysisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/test/CricketLeagueAnalysisTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.test.CricketLeagueAnalysisTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.test.CricketLeagueAnalysisTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/IPL2019FactsheetMostWkts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/IPL2019FactsheetMostWkts.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.test.CricketLeagueAnalysisTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.test.CricketLeagueAnalysisTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/CricketLeagueAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/CricketLeagueAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/IPLWicketsCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/IPLWicketsCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/test/CricketLeagueAnalysisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/test/CricketLeagueAnalysisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/IPL2019FactsheetMostWkts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/IPL2019FactsheetMostWkts.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,22 +200,22 @@
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="337" y="141" width="735" height="520" key="FileChooserDialogImpl/64.27.1302.741@64.27.1302.741" timestamp="1583730976313" />
-    <state width="1256" height="172" key="GridCell.Tab.0.bottom" timestamp="1583762161435">
+    <state width="1256" height="172" key="GridCell.Tab.0.bottom" timestamp="1583762333744">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1583762161435" />
-    <state width="1256" height="172" key="GridCell.Tab.0.center" timestamp="1583762161435">
+    <state width="1256" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1583762333744" />
+    <state width="1256" height="172" key="GridCell.Tab.0.center" timestamp="1583762333744">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1583762161435" />
-    <state width="1256" height="172" key="GridCell.Tab.0.left" timestamp="1583762161434">
+    <state width="1256" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1583762333744" />
+    <state width="1256" height="172" key="GridCell.Tab.0.left" timestamp="1583762333744">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1583762161434" />
-    <state width="1256" height="172" key="GridCell.Tab.0.right" timestamp="1583762161435">
+    <state width="1256" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1583762333744" />
+    <state width="1256" height="172" key="GridCell.Tab.0.right" timestamp="1583762333744">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1583762161435" />
+    <state width="1256" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1583762333744" />
     <state width="1256" height="215" key="GridCell.Tab.1.bottom" timestamp="1583659539194">
       <screen x="64" y="27" width="1302" height="741" />
     </state>

@@ -81,4 +81,15 @@ public class CricketLeagueAnalysisTest {
             Assert.assertEquals(IPLCricketLeagueException.ExceptionType.NO_CENSUS_DATA,e.type);
         }
     }
+
+    @Test
+    public void givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayer() {
+        try {
+            CricketLeagueAnalysis cricketLeagueAnalysis = new CricketLeagueAnalysis();
+            cricketLeagueAnalysis.loadMostWicketsData(CricketLeagueAnalysis.Player.BOWLER,FACT_SHEET_OF_MOST_WICKETS_CSV_FILE_PATH);
+            String player = cricketLeagueAnalysis.getSortForStrikeRate();
+            Assert.assertEquals("Krishnappa Gowtham",player);
+        } catch (Exception e){}
+    }
+
 }
