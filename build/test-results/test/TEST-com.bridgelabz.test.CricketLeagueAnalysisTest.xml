@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.test.CricketLeagueAnalysisTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-09T09:14:08" hostname="admin1-desktop" time="0.268">
+<testsuite name="com.bridgelabz.test.CricketLeagueAnalysisTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-03-09T09:17:19" hostname="admin1-desktop" time="0.556">
   <properties/>
-  <testcase name="givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayerByStrikeRate" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.268"/>
+  <testcase name="givenIPL2019SheetMostSheetMost4SAnd6S_ShouldGetCorrectPlayerBy4SAnd6s" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.371"/>
+  <testcase name="givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayerByStrikeRate" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.11"/>
+  <testcase name="givenIPL2019SheetMostRuns_ShouldGetCorrectPlayerNameByAverage" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.075"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

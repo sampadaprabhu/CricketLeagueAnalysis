@@ -27,4 +27,13 @@ public class CricketLeagueAnalysisTest {
        } catch (Exception e){}
     }
 
+    @Test
+    public void givenIPL2019SheetMostSheetMost4SAnd6S_ShouldGetCorrectPlayerBy4SAnd6s() {
+        try {
+            CricketLeagueAnalysis cricketLeagueAnalysis =new CricketLeagueAnalysis();
+            cricketLeagueAnalysis.loadMostRunsData(FACT_SHEET_OF_MOST_RUNS_CSV_FILE_PATH);
+            String player = cricketLeagueAnalysis.getSortFor4SAnd6S();
+            Assert.assertEquals("Andre Russell",player);
+        } catch (Exception e){}
+    }
 }
