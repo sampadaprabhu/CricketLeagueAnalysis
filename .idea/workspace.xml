@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e57ccb9-923e-4b6c-ab74-39a91e1fe0c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/BatsmanAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/BowlerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/CricketAdapterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/CricketLeagueAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/SortedField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -18,23 +13,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/IPLRunsCSV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/iplLeagueDTO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/CricketLeagueAnalysis$Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/CricketLeagueAnalysis$Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/CricketLeagueAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/CricketLeagueAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/IPLCricketLeagueException$ExceptionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/IPLCricketLeagueException$ExceptionType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/IPLCricketLeagueException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/IPLCricketLeagueException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/IPLWicketsCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/IPLWicketsCSV.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/iplLeagueDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/test/iplLeagueDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/test/CricketLeagueAnalysisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/test/CricketLeagueAnalysisTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.test.CricketLeagueAnalysisTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.test.CricketLeagueAnalysisTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/IPL2019FactsheetMostWkts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/IPL2019FactsheetMostWkts.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.test.CricketLeagueAnalysisTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.test.CricketLeagueAnalysisTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/CricketLeagueAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/CricketLeagueAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/IPLCricketLeagueException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/IPLCricketLeagueException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/iplLeagueDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/iplLeagueDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/IPLWicketsCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/IPLWicketsCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/test/CricketLeagueAnalysisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/test/CricketLeagueAnalysisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/IPL2019FactsheetMostWkts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/IPL2019FactsheetMostWkts.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +88,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CricketLeagueAnalysisTest">
+  <component name="RunManager" selected="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayer">
     <configuration name="CricketLeagueAnalysisTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -136,6 +129,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostBowlingAverage_ShouldGetCorrectPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostBowlingAverage_ShouldGetCorrectPlayer&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostRunsWithBestAverage_ShouldGetCorrectPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -156,32 +169,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostSheetMost4SAnd6SWithStrikeRate_ShouldGetCorrectPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostSheetMost4SAnd6SWithStrikeRate_ShouldGetCorrectPlayer&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayerByStrikeRate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayerByStrikeRate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayer&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -198,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayer" />
+        <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostBowlingAverage_ShouldGetCorrectPlayer" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostRunsWithBestAverage_ShouldGetCorrectPlayer" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostAverageWithBestStrikeRate_ShouldGetCorrectPlayer" />
-        <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostSheetMost4SAnd6SWithStrikeRate_ShouldGetCorrectPlayer" />
-        <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayerByStrikeRate" />
       </list>
     </recent_temporary>
   </component>
@@ -232,22 +225,22 @@
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="337" y="141" width="735" height="520" key="FileChooserDialogImpl/64.27.1302.741@64.27.1302.741" timestamp="1583730976313" />
-    <state width="1256" height="172" key="GridCell.Tab.0.bottom" timestamp="1583760222014">
+    <state width="1256" height="172" key="GridCell.Tab.0.bottom" timestamp="1583762161435">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1583760222014" />
-    <state width="1256" height="172" key="GridCell.Tab.0.center" timestamp="1583760222013">
+    <state width="1256" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1583762161435" />
+    <state width="1256" height="172" key="GridCell.Tab.0.center" timestamp="1583762161435">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1583760222013" />
-    <state width="1256" height="172" key="GridCell.Tab.0.left" timestamp="1583760222012">
+    <state width="1256" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1583762161435" />
+    <state width="1256" height="172" key="GridCell.Tab.0.left" timestamp="1583762161434">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1583760222012" />
-    <state width="1256" height="172" key="GridCell.Tab.0.right" timestamp="1583760222014">
+    <state width="1256" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1583762161434" />
+    <state width="1256" height="172" key="GridCell.Tab.0.right" timestamp="1583762161435">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1583760222014" />
+    <state width="1256" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1583762161435" />
     <state width="1256" height="215" key="GridCell.Tab.1.bottom" timestamp="1583659539194">
       <screen x="64" y="27" width="1302" height="741" />
     </state>

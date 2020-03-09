@@ -34,7 +34,7 @@ public class IPLWicketsCSV {
     public int fiveWickets;
 
     @CsvBindByName(column = "Econ", required = true)
-    public int economy;
+    public double economy;
 
 
     @Override

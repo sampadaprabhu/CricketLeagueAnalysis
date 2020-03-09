@@ -3,9 +3,11 @@ package com.bridgelabz.test;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.io.IOException;
+
 public class CricketLeagueAnalysisTest {
     private static final String FACT_SHEET_OF_MOST_RUNS_CSV_FILE_PATH ="./src/test/resources/IPL2019FactsheetMostRuns.csv";
-
+    private static final String FACT_SHEET_OF_MOST_WICKETS_CSV_FILE_PATH="./src/test/resources/IPL2019FactsheetMostWkts.csv";
     @Test
     public void givenIPL2019SheetMostRuns_ShouldGetCorrectPlayerNameByAverage() {
         try {
@@ -66,4 +68,17 @@ public class CricketLeagueAnalysisTest {
         } catch (Exception e){}
     }
 
+    //***********************************BOWLERS*************************************************//
+
+    @Test
+    public void givenIPL2019SheetMostBowlingAverage_ShouldGetCorrectPlayer() throws IOException {
+        try {
+            CricketLeagueAnalysis cricketLeagueAnalysis=new CricketLeagueAnalysis();
+            cricketLeagueAnalysis.loadMostWicketsData(CricketLeagueAnalysis.Player.BOWLER,FACT_SHEET_OF_MOST_WICKETS_CSV_FILE_PATH);
+            String player = cricketLeagueAnalysis.getSortForAverage();
+            Assert.assertEquals("Krishnappa Gowtham",player);
+        } catch (IPLCricketLeagueException e){
+            Assert.assertEquals(IPLCricketLeagueException.ExceptionType.NO_CENSUS_DATA,e.type);
+        }
+    }
 }

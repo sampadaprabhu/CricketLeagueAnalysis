@@ -20,6 +20,7 @@ public class CricketLeagueAnalysis {
        this.sortedFieldMap.put(SortedField.six,Comparator.comparing(x->x.six));
     }
 
+
     public enum Player{
         BATSMAN,BOWLER;
     }
@@ -33,14 +34,14 @@ public class CricketLeagueAnalysis {
         iplMap = CricketAdapterFactory.getCricketRelatedData(player,csvFilePath);
         iplList=iplMap.values().stream().collect(Collectors.toList());
         return iplList.get(0).Player;
-
-       /*     try (Reader reader= Files.newBufferedReader(Paths.get(csvFilePath));){
-                ICSVBuilder icsvBuilder= CSVBuilderFactory.createBuilder();
-                iplList =icsvBuilder.getCSVFileList(reader,IPLRunsCSV.class);
-        } catch (IOException e) {
-                e.printStackTrace();
-            } catch (RuntimeException e){}*/
     }
+
+    public String loadMostWicketsData(Player player, String ...csvFilePath) throws IOException {
+        iplMap=CricketAdapterFactory.getCricketRelatedData(player,csvFilePath);
+        iplList=iplMap.values().stream().collect(Collectors.toList());
+        return iplList.get(0).Player;
+    }
+
 
     public String getSortForAverage() {
         iplList=iplMap.values().stream().sorted(Comparator.comparing(x-> x.average, Comparator.reverseOrder())).collect(Collectors.toList());
