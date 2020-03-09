@@ -41,5 +41,10 @@ public class CricketLeagueAnalysis {
         return iplList.stream().sorted(Comparator.comparing(x->x.four + x.six,Comparator.reverseOrder())).collect(Collectors.toList()).get(0).player;
     }
 
+    public String getSortedFor4SAnd6SWithStrikeRate() {
+        Comparator<IPLRunsCSV> com=Comparator.comparing(x->x.four+ x.six);
+        com.thenComparing(x->x.strikeRate);
+        return iplList.stream().sorted(com.reversed()).collect(Collectors.toList()).get(0).player;
+    }
 
 }

@@ -36,4 +36,14 @@ public class CricketLeagueAnalysisTest {
             Assert.assertEquals("Andre Russell",player);
         } catch (Exception e){}
     }
+
+    @Test
+    public void givenIPL2019SheetMostSheetMost4SAnd6SWithStrikeRate_ShouldGetCorrectPlayer() {
+        try {
+            CricketLeagueAnalysis cricketLeagueAnalysis=new CricketLeagueAnalysis();
+            cricketLeagueAnalysis.loadMostRunsData(FACT_SHEET_OF_MOST_RUNS_CSV_FILE_PATH);
+            String player = cricketLeagueAnalysis.getSortedFor4SAnd6SWithStrikeRate();
+            Assert.assertEquals("Andre Russell",player);
+        } catch (Exception e){}
+    }
 }
