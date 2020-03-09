@@ -62,7 +62,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostAverageWithBestStrikeRate_ShouldGetCorrectPlayer">
+  <component name="RunManager" selected="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostRunsWithBestAverage_ShouldGetCorrectPlayer">
     <configuration name="CricketLeagueAnalysisTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -103,12 +103,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostRuns_ShouldGetCorrectPlayerNameByAverage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostRunsWithBestAverage_ShouldGetCorrectPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostRuns_ShouldGetCorrectPlayerNameByAverage&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostRunsWithBestAverage_ShouldGetCorrectPlayer&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostRunsWithBestAverage_ShouldGetCorrectPlayer" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostAverageWithBestStrikeRate_ShouldGetCorrectPlayer" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostSheetMost4SAnd6SWithStrikeRate_ShouldGetCorrectPlayer" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayerByStrikeRate" />
-        <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostRuns_ShouldGetCorrectPlayerNameByAverage" />
       </list>
     </recent_temporary>
   </component>
@@ -199,22 +199,22 @@
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="337" y="141" width="735" height="520" key="FileChooserDialogImpl/64.27.1302.741@64.27.1302.741" timestamp="1583730976313" />
-    <state width="1256" height="172" key="GridCell.Tab.0.bottom" timestamp="1583746070847">
+    <state width="1256" height="172" key="GridCell.Tab.0.bottom" timestamp="1583746262438">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1583746070847" />
-    <state width="1256" height="172" key="GridCell.Tab.0.center" timestamp="1583746070846">
+    <state width="1256" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1583746262438" />
+    <state width="1256" height="172" key="GridCell.Tab.0.center" timestamp="1583746262438">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1583746070846" />
-    <state width="1256" height="172" key="GridCell.Tab.0.left" timestamp="1583746070845">
+    <state width="1256" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1583746262438" />
+    <state width="1256" height="172" key="GridCell.Tab.0.left" timestamp="1583746262438">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1583746070845" />
-    <state width="1256" height="172" key="GridCell.Tab.0.right" timestamp="1583746070846">
+    <state width="1256" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1583746262438" />
+    <state width="1256" height="172" key="GridCell.Tab.0.right" timestamp="1583746262438">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1583746070846" />
+    <state width="1256" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1583746262438" />
     <state width="1256" height="215" key="GridCell.Tab.1.bottom" timestamp="1583659539194">
       <screen x="64" y="27" width="1302" height="741" />
     </state>

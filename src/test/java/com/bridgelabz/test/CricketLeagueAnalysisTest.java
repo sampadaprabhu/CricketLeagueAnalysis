@@ -56,4 +56,15 @@ public class CricketLeagueAnalysisTest {
             Assert.assertEquals("Ishant Sharma",player);
         } catch (Exception e){}
     }
+
+    @Test
+    public void givenIPL2019SheetMostRunsWithBestAverage_ShouldGetCorrectPlayer() {
+        try {
+            CricketLeagueAnalysis cricketLeagueAnalysis=new CricketLeagueAnalysis();
+            cricketLeagueAnalysis.loadMostRunsData(FACT_SHEET_OF_MOST_RUNS_CSV_FILE_PATH);
+            String player = cricketLeagueAnalysis.getSortedForRunsWithBestAverage();
+            Assert.assertEquals("David Warner ",player);
+        } catch (Exception e){}
+    }
+
 }

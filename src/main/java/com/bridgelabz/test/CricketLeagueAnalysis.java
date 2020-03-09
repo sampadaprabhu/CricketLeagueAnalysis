@@ -53,5 +53,10 @@ public class CricketLeagueAnalysis {
         return iplList.stream().sorted(comparator.reversed()).collect(Collectors.toList()).get(0).player;
     }
 
+    public String getSortedForRunsWithBestAverage() {
+        Comparator<IPLRunsCSV> comparator=Comparator.comparing(x->x.runs);
+        comparator.thenComparing(x->x.average);
+        return iplList.stream().sorted(comparator.reversed()).collect(Collectors.toList()).get(0).player;
+    }
 
 }
