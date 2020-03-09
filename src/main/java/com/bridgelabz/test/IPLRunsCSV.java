@@ -1,4 +1,4 @@
-package com.bridgelabz;
+package com.bridgelabz.test;
 
 import com.opencsv.bean.CsvBindByName;
 
@@ -41,4 +41,6 @@ public class IPLRunsCSV {
                 ", six=" + six +
                 '}';
     }
+
+
 }
