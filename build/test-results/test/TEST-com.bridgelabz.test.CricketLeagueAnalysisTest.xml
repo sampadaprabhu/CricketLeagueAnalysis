@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.test.CricketLeagueAnalysisTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-09T09:31:03" hostname="admin1-desktop" time="0.311">
+<testsuite name="com.bridgelabz.test.CricketLeagueAnalysisTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-03-09T13:23:16" hostname="admin1-desktop" time="0.769">
   <properties/>
-  <testcase name="givenIPL2019SheetMostRunsWithBestAverage_ShouldGetCorrectPlayer" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.311"/>
+  <testcase name="givenIPL2019SheetMostRunsWithBestAverage_ShouldGetCorrectPlayer" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.275"/>
+  <testcase name="givenIPL2019SheetMostSheetMost4SAnd6S_ShouldGetCorrectPlayerBy4SAnd6s" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.104"/>
+  <testcase name="givenIPL2019SheetMostAverageWithBestStrikeRate_ShouldGetCorrectPlayer" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.097"/>
+  <testcase name="givenIPL2019SheetMostSheetMost4SAnd6SWithStrikeRate_ShouldGetCorrectPlayer" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.099"/>
+  <testcase name="givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayerByStrikeRate" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.099"/>
+  <testcase name="givenIPL2019SheetMostRuns_ShouldGetCorrectPlayerNameByAverage" classname="com.bridgelabz.test.CricketLeagueAnalysisTest" time="0.093"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

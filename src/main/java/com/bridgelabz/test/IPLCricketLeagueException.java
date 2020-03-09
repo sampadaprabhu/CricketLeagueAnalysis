@@ -3,7 +3,8 @@ package com.bridgelabz.test;
 public class IPLCricketLeagueException extends RuntimeException{
 
     public enum ExceptionType{
-        NO_CENSUS_DATA;
+        NO_CENSUS_DATA,
+        INVALID_PLAYER;
     }
     public ExceptionType type;
 

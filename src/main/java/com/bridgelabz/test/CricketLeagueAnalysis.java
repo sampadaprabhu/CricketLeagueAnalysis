@@ -1,62 +1,81 @@
 package com.bridgelabz.test;
 
-import jarpackage.CSVBuilderFactory;
-import jarpackage.ICSVBuilder;
-
 import java.io.IOException;
-import java.io.Reader;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 public class CricketLeagueAnalysis {
 
-    public enum Player{
-        SIX,FOUR,STRIKE_RATE;
+    public CricketLeagueAnalysis() {
+       this.sortedFieldMap= new HashMap<>();
+
+       this.sortedFieldMap.put(SortedField.player,Comparator.comparing(x->x.Player));
+       this.sortedFieldMap.put(SortedField.average,Comparator.comparing(x->x.average));
+       this.sortedFieldMap.put(SortedField.runs,Comparator.comparing(x->x.runs));
+       this.sortedFieldMap.put(SortedField.strikeRate,Comparator.comparing(x->x.strikeRate));
+       this.sortedFieldMap.put(SortedField.four,Comparator.comparing(x->x.four));
+       this.sortedFieldMap.put(SortedField.six,Comparator.comparing(x->x.six));
     }
-    List<IPLRunsCSV>iplList= null;
+
+    public enum Player{
+        BATSMAN,BOWLER;
+    }
+    List<iplLeagueDTO>iplList= null;
+
     Map<String, iplLeagueDTO> iplMap=null;
-    public void loadMostRunsData(String csvFilePath) {
-            try (Reader reader= Files.newBufferedReader(Paths.get(csvFilePath));){
+
+    Map<SortedField,Comparator<iplLeagueDTO>> sortedFieldMap = null;
+    public String loadMostRunsData(Player player, String ...csvFilePath) throws IOException {
+
+        iplMap = CricketAdapterFactory.getCricketRelatedData(player,csvFilePath);
+        iplList=iplMap.values().stream().collect(Collectors.toList());
+        return iplList.get(0).Player;
+
+       /*     try (Reader reader= Files.newBufferedReader(Paths.get(csvFilePath));){
                 ICSVBuilder icsvBuilder= CSVBuilderFactory.createBuilder();
                 iplList =icsvBuilder.getCSVFileList(reader,IPLRunsCSV.class);
         } catch (IOException e) {
                 e.printStackTrace();
-            } catch (RuntimeException e){}
+            } catch (RuntimeException e){}*/
     }
 
     public String getSortForAverage() {
-        return iplList.stream()
-                .sorted(Comparator.comparing(x-> x.average, Comparator.reverseOrder())).collect(Collectors.toList()).get(0).player;
+        iplList=iplMap.values().stream().sorted(Comparator.comparing(x-> x.average, Comparator.reverseOrder())).collect(Collectors.toList());
+        return iplList.get(0).Player;
     }
 
      public String getSortForStrikeRate() {
-        return iplList.stream().sorted(Comparator.comparing(x-> x.strikeRate,Comparator.reverseOrder())).collect(Collectors.toList()).get(0).player;
+        iplList=iplMap.values().stream().sorted(Comparator.comparing(x-> x.strikeRate,Comparator.reverseOrder())).collect(Collectors.toList());
+        return iplList.get(0).Player;
     }
 
     public String getSortFor4SAnd6S(){
-        return iplList.stream().sorted(Comparator.comparing(x->x.four + x.six,Comparator.reverseOrder())).collect(Collectors.toList()).get(0).player;
+        iplList=iplMap.values().stream().sorted(Comparator.comparing(x->x.four + x.six,Comparator.reverseOrder())).collect(Collectors.toList());
+        return iplList.get(0).Player;
     }
 
     public String getSortedFor4SAnd6SWithStrikeRate() {
-        Comparator<IPLRunsCSV> com=Comparator.comparing(x->x.four+ x.six);
-        com.thenComparing(x->x.strikeRate);
-        return iplList.stream().sorted(com.reversed()).collect(Collectors.toList()).get(0).player;
+        Comparator<iplLeagueDTO> comparator=Comparator.comparing(x->x.four+ x.six);
+        comparator.thenComparing(x->x.strikeRate);
+        iplList=iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
+        return iplList.get(0).Player;
     }
 
     public String getSortedForAverageWithStrikeRate() {
-        Comparator<IPLRunsCSV> comparator=Comparator.comparing(x->x.strikeRate);
+        Comparator<iplLeagueDTO> comparator=Comparator.comparing(x->x.strikeRate);
         comparator.thenComparing(x->x.average);
-        return iplList.stream().sorted(comparator.reversed()).collect(Collectors.toList()).get(0).player;
+        iplList=iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
+        return iplList.get(0).Player;
     }
 
     public String getSortedForRunsWithBestAverage() {
-        Comparator<IPLRunsCSV> comparator=Comparator.comparing(x->x.runs);
+        Comparator<iplLeagueDTO> comparator=Comparator.comparing(x->x.runs);
         comparator.thenComparing(x->x.average);
-        return iplList.stream().sorted(comparator.reversed()).collect(Collectors.toList()).get(0).player;
+        iplList=iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
+        return iplList.get(0).Player;
     }
 
 }

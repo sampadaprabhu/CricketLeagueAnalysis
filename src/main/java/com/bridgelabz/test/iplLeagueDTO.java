@@ -12,6 +12,7 @@ public class iplLeagueDTO {
     public int wickets;
     public int fourWickets;
     public int fiveWickets;
+    public double economy;
 
     public iplLeagueDTO(IPLRunsCSV iplCSV) {
         Player = iplCSV.player;
@@ -24,4 +25,16 @@ public class iplLeagueDTO {
         six = iplCSV.six;
     }
 
+    public iplLeagueDTO(IPLWicketsCSV iplCSV) {
+        Player = iplCSV.player;
+        match = iplCSV.match;
+        innings = iplCSV.innings;
+        runs = iplCSV.runs;
+        average = iplCSV.average;
+        strikeRate = iplCSV.strikeRate;
+        wickets = iplCSV.wickets;
+        fourWickets = iplCSV.fourWickets;
+        fiveWickets = iplCSV.fiveWickets;
+        economy = iplCSV.economy;
+    }
 }
