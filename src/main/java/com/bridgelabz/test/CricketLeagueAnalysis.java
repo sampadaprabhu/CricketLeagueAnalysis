@@ -28,19 +28,12 @@ public class CricketLeagueAnalysis {
     Map<String, iplLeagueDTO> iplMap=null;
 
     Map<SortedField,Comparator<iplLeagueDTO>> sortedFieldMap = null;
-    public String loadMostRunsData(Player player, String ...csvFilePath) throws IOException {
 
-        iplMap = CricketAdapterFactory.getCricketRelatedData(player,csvFilePath);
-        iplList=iplMap.values().stream().collect(Collectors.toList());
-        return iplList.get(0).Player;
-    }
-
-    public String loadMostWicketsData(Player player, String ...csvFilePath) throws IOException {
+    public String loadData(Player player, String ...csvFilePath) throws IOException {
         iplMap=CricketAdapterFactory.getCricketRelatedData(player,csvFilePath);
         iplList=iplMap.values().stream().collect(Collectors.toList());
         return iplList.get(0).Player;
     }
-
 
     public String getSortForAverage() {
         iplList=iplMap.values().stream().sorted(Comparator.comparing(x-> x.average, Comparator.reverseOrder())).collect(Collectors.toList());
@@ -103,5 +96,4 @@ public class CricketLeagueAnalysis {
         iplList= iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
         return iplList.get(0).Player;
     }
-
 }
