@@ -115,4 +115,12 @@ public class CricketLeagueAnalysisTest {
         String player = cricketLeagueAnalysis.getSortedForBowlingAverageWithStrikingRate();
         Assert.assertEquals("Krishnappa Gowtham",player);
     }
+
+    @Test
+    public void givenIPL2019SheetMostMaximumWicketsWithBestBowling_ShouldGetCorrectPlayer() throws IOException {
+        CricketLeagueAnalysis cricketLeagueAnalysis = new CricketLeagueAnalysis();
+        cricketLeagueAnalysis.loadMostWicketsData(CricketLeagueAnalysis.Player.BOWLER,FACT_SHEET_OF_MOST_WICKETS_CSV_FILE_PATH);
+        String player = cricketLeagueAnalysis.getSortedForMaximumWicketsWithBowlingAverage();
+        Assert.assertEquals("Imran Tahir",player);
+    }
 }

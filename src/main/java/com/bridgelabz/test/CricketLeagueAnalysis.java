@@ -97,4 +97,11 @@ public class CricketLeagueAnalysis {
         return iplList.get(0).Player;
     }
 
+    public String getSortedForMaximumWicketsWithBowlingAverage() {
+        Comparator<iplLeagueDTO> comparator = Comparator.comparing(x->x.wickets);
+        comparator.thenComparing(x->x.average);
+        iplList= iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
+        return iplList.get(0).Player;
+    }
+
 }
