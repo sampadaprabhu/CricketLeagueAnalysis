@@ -16,8 +16,10 @@ public class CricketLeagueAnalysis {
        this.sortedFieldMap.put(SortedField.average,Comparator.comparing(x->x.average));
        this.sortedFieldMap.put(SortedField.runs,Comparator.comparing(x->x.runs));
        this.sortedFieldMap.put(SortedField.strikeRate,Comparator.comparing(x->x.strikeRate));
-       this.sortedFieldMap.put(SortedField.four,Comparator.comparing(x->x.four));
-       this.sortedFieldMap.put(SortedField.six,Comparator.comparing(x->x.six));
+       this.sortedFieldMap.put(SortedField.four_six,Comparator.comparing(x->x.four+x.six));
+       this.sortedFieldMap.put(SortedField.economy,Comparator.comparing(x->x.economy));
+       this.sortedFieldMap.put(SortedField.four_five_Wickets,Comparator.comparing(x->x.fourWickets+x.fiveWickets));
+       this.sortedFieldMap.put(SortedField.wickets,Comparator.comparing(x->x.wickets));
     }
 
     public enum Player{
@@ -35,65 +37,17 @@ public class CricketLeagueAnalysis {
         return iplList.get(0).Player;
     }
 
-    public String getSortForAverage() {
-        iplList=iplMap.values().stream().sorted(Comparator.comparing(x-> x.average, Comparator.reverseOrder())).collect(Collectors.toList());
-        return iplList.get(0).Player;
-    }
-
-     public String getSortForStrikeRate() {
-        iplList=iplMap.values().stream().sorted(Comparator.comparing(x-> x.strikeRate,Comparator.reverseOrder())).collect(Collectors.toList());
-        return iplList.get(0).Player;
-    }
-
-    public String getSortFor4SAnd6S(){
-        iplList=iplMap.values().stream().sorted(Comparator.comparing(x->x.four + x.six,Comparator.reverseOrder())).collect(Collectors.toList());
-        return iplList.get(0).Player;
-    }
-
-    public String getSortedFor4SAnd6SWithStrikeRate() {
-        Comparator<iplLeagueDTO> comparator=Comparator.comparing(x->x.four+ x.six);
-        comparator.thenComparing(x->x.strikeRate);
-        iplList=iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
-        return iplList.get(0).Player;
-    }
-
-    public String getSortedForAverageWithStrikeRate() {
-        Comparator<iplLeagueDTO> comparator=Comparator.comparing(x->x.strikeRate);
-        comparator.thenComparing(x->x.average);
-        iplList=iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
-        return iplList.get(0).Player;
-    }
-
-    public String getSortedForRunsWithBestAverage() {
-        Comparator<iplLeagueDTO> comparator=Comparator.comparing(x->x.runs);
-        comparator.thenComparing(x->x.average);
-        iplList=iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
-        return iplList.get(0).Player;
-    }
-
-    public String getSortForEconomyRate() {
-        iplList=iplMap.values().stream().sorted(Comparator.comparing(x-> x.economy,Comparator.reverseOrder())).collect(Collectors.toList());
-        return iplList.get(0).Player;
-    }
-
-    public String getSortedForStrikeRateWith5wAnd4w() {
-        Comparator<iplLeagueDTO> comparator = Comparator.comparing(x->x.strikeRate);
-        comparator.thenComparing(x->x.fiveWickets + x.fourWickets);
-        iplList = iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
-        return iplList.get(0).Player;
-    }
-
-    public String getSortedForBowlingAverageWithStrikingRate() {
-        Comparator<iplLeagueDTO> comparator = Comparator.comparing(x->x.average);
-        comparator.thenComparing(x->x.strikeRate);
-        iplList = iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
-        return iplList.get(0).Player;
-    }
-
-    public String getSortedForMaximumWicketsWithBowlingAverage() {
-        Comparator<iplLeagueDTO> comparator = Comparator.comparing(x->x.wickets);
-        comparator.thenComparing(x->x.average);
-        iplList= iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
-        return iplList.get(0).Player;
+    public String getSortedData(SortedField ...sortedFields){
+        if (iplList.size() == 0 || iplList == null){
+            throw new IPLCricketLeagueException(IPLCricketLeagueException.ExceptionType.NO_CENSUS_DATA);
+        }
+        else{
+            Comparator<iplLeagueDTO> comparator =sortedFieldMap.get(sortedFields[0]);
+            for (int i=sortedFields.length-2;i>=0;i--){
+                comparator.thenComparing(sortedFieldMap.get(sortedFields[i]));
+            }
+            iplList=iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
+            return iplList.get(0).Player;
+        }
     }
 }

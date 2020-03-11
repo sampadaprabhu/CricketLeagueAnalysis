@@ -7,6 +7,8 @@ public enum SortedField {
     runs,
     average,
     strikeRate,
-    four,
-    six;
+    economy,
+    four_six,
+    four_five_Wickets,
+    wickets;
 }
