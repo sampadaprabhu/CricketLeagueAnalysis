@@ -92,4 +92,11 @@ public class CricketLeagueAnalysisTest {
         } catch (Exception e){}
     }
 
+    @Test
+    public void givenIPL2019SheetMostEconomyRate_ShouldGetCorrectPlayer() throws IOException {
+        CricketLeagueAnalysis cricketLeagueAnalysis=new CricketLeagueAnalysis();
+        cricketLeagueAnalysis.loadMostWicketsData(CricketLeagueAnalysis.Player.BOWLER,FACT_SHEET_OF_MOST_WICKETS_CSV_FILE_PATH);
+        String player = cricketLeagueAnalysis.getSortForEconomyRate();
+        Assert.assertEquals("Ben Cutting",player);
+    }
 }

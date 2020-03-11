@@ -20,7 +20,6 @@ public class CricketLeagueAnalysis {
        this.sortedFieldMap.put(SortedField.six,Comparator.comparing(x->x.six));
     }
 
-
     public enum Player{
         BATSMAN,BOWLER;
     }
@@ -77,6 +76,12 @@ public class CricketLeagueAnalysis {
         comparator.thenComparing(x->x.average);
         iplList=iplMap.values().stream().sorted(comparator.reversed()).collect(Collectors.toList());
         return iplList.get(0).Player;
+    }
+
+    public String getSortForEconomyRate() {
+        iplList=iplMap.values().stream().sorted(Comparator.comparing(x-> x.economy,Comparator.reverseOrder())).collect(Collectors.toList());
+        return iplList.get(0).Player;
+
     }
 
 }

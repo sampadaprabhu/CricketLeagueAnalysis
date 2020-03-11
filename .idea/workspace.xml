@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e57ccb9-923e-4b6c-ab74-39a91e1fe0c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/CricketLeagueAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/test/CricketLeagueAnalysis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/test/CricketLeagueAnalysisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/test/CricketLeagueAnalysisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CensusAnalyser" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24444444" />
@@ -63,7 +65,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayer">
+  <component name="RunManager" selected="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostEconomyRate_ShouldGetCorrectPlayer">
     <configuration name="CricketLeagueAnalysisTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -84,12 +86,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostAverageWithBestStrikeRate_ShouldGetCorrectPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostBowlingAverage_ShouldGetCorrectPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostAverageWithBestStrikeRate_ShouldGetCorrectPlayer&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostBowlingAverage_ShouldGetCorrectPlayer&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -104,12 +106,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostBowlingAverage_ShouldGetCorrectPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CricketLeagueAnalysisTest.givenIPL2019SheetMostEconomyRate_ShouldGetCorrectPlayer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostBowlingAverage_ShouldGetCorrectPlayer&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.test.CricketLeagueAnalysisTest.givenIPL2019SheetMostEconomyRate_ShouldGetCorrectPlayer&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -166,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostEconomyRate_ShouldGetCorrectPlayer" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostStrikingRate_ShouldGetCorrectPlayer" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostBowlingAverage_ShouldGetCorrectPlayer" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest" />
         <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostRunsWithBestAverage_ShouldGetCorrectPlayer" />
-        <item itemvalue="Gradle.CricketLeagueAnalysisTest.givenIPL2019SheetMostAverageWithBestStrikeRate_ShouldGetCorrectPlayer" />
       </list>
     </recent_temporary>
   </component>
@@ -200,22 +202,22 @@
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="337" y="141" width="735" height="520" key="FileChooserDialogImpl/64.27.1302.741@64.27.1302.741" timestamp="1583730976313" />
-    <state width="1256" height="172" key="GridCell.Tab.0.bottom" timestamp="1583762333744">
+    <state width="1256" height="172" key="GridCell.Tab.0.bottom" timestamp="1583901115298">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1583762333744" />
-    <state width="1256" height="172" key="GridCell.Tab.0.center" timestamp="1583762333744">
+    <state width="1256" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1583901115298" />
+    <state width="1256" height="172" key="GridCell.Tab.0.center" timestamp="1583901115298">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1583762333744" />
-    <state width="1256" height="172" key="GridCell.Tab.0.left" timestamp="1583762333744">
+    <state width="1256" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1583901115298" />
+    <state width="1256" height="172" key="GridCell.Tab.0.left" timestamp="1583901115298">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1583762333744" />
-    <state width="1256" height="172" key="GridCell.Tab.0.right" timestamp="1583762333744">
+    <state width="1256" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1583901115298" />
+    <state width="1256" height="172" key="GridCell.Tab.0.right" timestamp="1583901115298">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1583762333744" />
+    <state width="1256" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1583901115298" />
     <state width="1256" height="215" key="GridCell.Tab.1.bottom" timestamp="1583659539194">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
