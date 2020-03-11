@@ -99,4 +99,13 @@ public class CricketLeagueAnalysisTest {
         String player = cricketLeagueAnalysis.getSortForEconomyRate();
         Assert.assertEquals("Ben Cutting",player);
     }
+
+    @Test
+    public void givenIPL2019SheetMostBestStrikingRateWith5wAnd4w_ShouldGetCorrectPlayer() throws IOException {
+        CricketLeagueAnalysis cricketLeagueAnalysis=new CricketLeagueAnalysis();
+        cricketLeagueAnalysis.loadMostWicketsData(CricketLeagueAnalysis.Player.BOWLER,FACT_SHEET_OF_MOST_WICKETS_CSV_FILE_PATH);
+        String player = cricketLeagueAnalysis.getSortedForStrikeRateWith5wAnd4w();
+        Assert.assertEquals("Krishnappa Gowtham",player);
+    }
+
 }
