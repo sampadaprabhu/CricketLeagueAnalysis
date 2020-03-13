@@ -15,22 +15,21 @@ import java.util.stream.StreamSupport;
 public abstract class CricketLeagueAdapter {
     public abstract <E> Map<String, iplLeagueDTO> loadMostRunsData(String... csvFilePath) throws IOException;
 
-    public <E> Map<String, iplLeagueDTO> loadMostRunsData(Class<E> className,String csvFilePath) throws IOException {
-        Map<String,iplLeagueDTO> iplMap=new HashMap<>();
-        try (Reader reader= Files.newBufferedReader(Paths.get(csvFilePath))){
-            ICSVBuilder csvBuilder= CSVBuilderFactory.createBuilder();
-            Iterator<E> cricketer=csvBuilder.getCSVFileIterator(reader,className);
-            Iterable<E> criceterIterable=()->cricketer;
+    public <E> Map<String, iplLeagueDTO> loadMostRunsData(Class<E> className, String csvFilePath) throws IOException {
+        Map<String, iplLeagueDTO> iplMap = new HashMap<>();
+        try (Reader reader = Files.newBufferedReader(Paths.get(csvFilePath))) {
+            ICSVBuilder csvBuilder = CSVBuilderFactory.createBuilder();
+            Iterator<E> cricketer = csvBuilder.getCSVFileIterator(reader, className);
+            Iterable<E> criceterIterable = () -> cricketer;
 
-            if (className.getName().equals("com.bridgelabz.test.IPLRunsCSV")){
-                StreamSupport.stream(criceterIterable.spliterator(),false)
+            if (className.getName().equals("IPLRunsCSV")) {
+                StreamSupport.stream(criceterIterable.spliterator(), false)
                         .map(IPLRunsCSV.class::cast)
-                        .forEach(batsman-> iplMap.put(batsman.player,new iplLeagueDTO(batsman)));
-            }
-           else if (className.getName().equals("com.bridgelabz.test.IPLWicketsCSV")){
-                StreamSupport.stream(criceterIterable.spliterator(),false)
+                        .forEach(batsman -> iplMap.put(batsman.player, new iplLeagueDTO(batsman)));
+            } else if (className.getName().equals("IPLWicketsCSV")) {
+                StreamSupport.stream(criceterIterable.spliterator(), false)
                         .map(IPLWicketsCSV.class::cast)
-                        .forEach(bowlers-> iplMap.put(bowlers.player,new iplLeagueDTO(bowlers)));
+                        .forEach(bowlers -> iplMap.put(bowlers.player, new iplLeagueDTO(bowlers)));
             }
             return iplMap;
         }

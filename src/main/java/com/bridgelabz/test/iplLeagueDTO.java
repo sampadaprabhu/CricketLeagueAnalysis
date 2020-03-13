@@ -21,7 +21,7 @@ public class iplLeagueDTO {
         match = iplRunsCSV.match;
         innings = iplRunsCSV.innings;
         runs = iplRunsCSV.runs;
-        average=iplRunsCSV.average;
+        average = iplRunsCSV.average;
         batting_average = iplRunsCSV.average;
         strikeRate = iplRunsCSV.strikeRate;
         four = iplRunsCSV.four;
@@ -33,7 +33,7 @@ public class iplLeagueDTO {
         match = iplWicketsCSV.match;
         innings = iplWicketsCSV.innings;
         runs = iplWicketsCSV.runs;
-        average=iplWicketsCSV.average;
+        average = iplWicketsCSV.average;
         bowling_average = iplWicketsCSV.average;
         strikeRate = iplWicketsCSV.strikeRate;
         wickets = iplWicketsCSV.wickets;
