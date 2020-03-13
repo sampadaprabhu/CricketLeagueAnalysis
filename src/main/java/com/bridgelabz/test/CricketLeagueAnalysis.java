@@ -13,13 +13,14 @@ public class CricketLeagueAnalysis {
        this.sortedFieldMap= new HashMap<>();
 
        this.sortedFieldMap.put(SortedField.player,Comparator.comparing(x->x.Player));
-       this.sortedFieldMap.put(SortedField.average,Comparator.comparing(x->x.average));
+       this.sortedFieldMap.put(SortedField.average,Comparator.comparing(x->x.batting_average));
        this.sortedFieldMap.put(SortedField.runs,Comparator.comparing(x->x.runs));
        this.sortedFieldMap.put(SortedField.strikeRate,Comparator.comparing(x->x.strikeRate));
        this.sortedFieldMap.put(SortedField.four_six,Comparator.comparing(x->x.four+x.six));
        this.sortedFieldMap.put(SortedField.economy,Comparator.comparing(x->x.economy));
        this.sortedFieldMap.put(SortedField.four_five_Wickets,Comparator.comparing(x->x.fourWickets+x.fiveWickets));
        this.sortedFieldMap.put(SortedField.wickets,Comparator.comparing(x->x.wickets));
+       this.sortedFieldMap.put(SortedField.Batting_Bowling_Average,Comparator.comparing(x->x.batting_average +x.bowling_average));
     }
 
     public enum Player{

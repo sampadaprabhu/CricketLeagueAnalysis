@@ -10,5 +10,6 @@ public enum SortedField {
     economy,
     four_six,
     four_five_Wickets,
-    wickets;
+    wickets,
+    Batting_Bowling_Average;
 }
