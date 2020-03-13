@@ -11,5 +11,6 @@ public enum SortedField {
     four_six,
     four_five_Wickets,
     wickets,
-    Batting_Bowling_Average;
+    Batting_Bowling_Average,
+    All_Rounder;
 }

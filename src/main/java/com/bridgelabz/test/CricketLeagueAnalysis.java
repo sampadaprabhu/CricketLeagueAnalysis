@@ -21,6 +21,8 @@ public class CricketLeagueAnalysis {
        this.sortedFieldMap.put(SortedField.four_five_Wickets,Comparator.comparing(x->x.fourWickets+x.fiveWickets));
        this.sortedFieldMap.put(SortedField.wickets,Comparator.comparing(x->x.wickets));
        this.sortedFieldMap.put(SortedField.Batting_Bowling_Average,Comparator.comparing(x->x.batting_average +x.bowling_average));
+       this.sortedFieldMap.put(SortedField.All_Rounder,Comparator.comparing(x->x.runs *x.wickets,Comparator.reverseOrder()));
+
     }
 
     public enum Player{

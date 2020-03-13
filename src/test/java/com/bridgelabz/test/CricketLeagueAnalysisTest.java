@@ -147,6 +147,13 @@ public class CricketLeagueAnalysisTest {
         String player=cricketLeagueAnalysis.getSortedData(SortedField.Batting_Bowling_Average);
         Assert.assertEquals("Krishnappa Gowtham",player);
     }
-
-
+    //UC14
+    @Test
+    public void givenIPL2019SheetAllRounder_ShouldGetCorrectPlayer() throws IOException {
+        CricketLeagueAnalysis cricketLeagueAnalysis=new CricketLeagueAnalysis();
+        cricketLeagueAnalysis.loadData(CricketLeagueAnalysis.Player.BATSMAN,FACT_SHEET_OF_MOST_RUNS_CSV_FILE_PATH);
+        cricketLeagueAnalysis.loadData(CricketLeagueAnalysis.Player.BOWLER,FACT_SHEET_OF_MOST_WICKETS_CSV_FILE_PATH);
+        String player=cricketLeagueAnalysis.getSortedData(SortedField.All_Rounder);
+        Assert.assertEquals("Hardik Pandya",player);
+    }
 }
