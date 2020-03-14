@@ -4,7 +4,8 @@ public class IPLCricketLeagueException extends RuntimeException {
 
     public enum ExceptionType {
         NO_PLAYER_DATA,
-        INVALID_PLAYER;
+        INVALID_PLAYER,
+        NO_PLAYER_FOUND;
     }
 
     public ExceptionType type;
